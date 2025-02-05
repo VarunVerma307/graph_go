@@ -116,16 +116,16 @@ func displa(adj [][]int) {
 	}
 }
 
-func main() {
-	V := 4
-	adj := make([][]int, V)
+// func main() {
+// 	V := 4
+//     adj := make([][]int, V)	
 
-	adddge(adj, 0, 1)
-	adddge(adj, 0, 2)
-	adddge(adj, 1, 2)
-	adddge(adj, 2, 3)
+// 	adddge(adj, 0, 1)
+// 	adddge(adj, 0, 2)
+// 	adddge(adj, 1, 2)
+// 	adddge(adj, 2, 3)
 
-	fmt.Println("Adjacency List Representation:")
-	displa(adj)
-	bfs(adj, 0)
-}
+// 	fmt.Println("Adjacency List Representation:")
+// 	displa(adj)
+// 	bfs(adj, 0)
+// }
