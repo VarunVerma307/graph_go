@@ -21,16 +21,16 @@ func displayAdjList(adj [][]int) {
 }
 
 
-// func main() {
-// 	V:= 4
-// 	adj := make([][]int, V)
+func main() {
+	V:= 4
+	adj := make([][]int, V)
 
 
-// 	addEdge(adj, 0, 1)
-// 	addEdge(adj, 0, 2)
-// 	addEdge(adj, 1, 2)
-// 	addEdge(adj, 2, 3)
+	addEdge(adj, 0, 1)
+	addEdge(adj, 0, 2)
+	addEdge(adj, 1, 2)
+	addEdge(adj, 2, 3)
 
-// 	fmt.Println("Adjacency List Representation:")
-// 	displayAdjList(adj)
-// }
+	fmt.Println("Adjacency List Representation:")
+	displayAdjList(adj)
+}
